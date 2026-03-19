@@ -130,10 +130,11 @@ export default function App() {
 
           {/* About Section */}
           <div className="mb-6">
+            <p className="text-base leading-relaxed text-gray-800 mb-4">
+              I am a final year PhD student in Computational Biology at Columbia University, advised by Prof. Andrea Califano and Prof. Elham Azizi. My research interests focus on developing principled and theoretically grounded methods in machine learning, with particular emphasis on generative modeling, geometric deep learning, and causal discovery and inference. I am interested in advancing the theoretical foundations of these methods and building tools that can deepen our understanding of complex systems.
+            </p>
             <p className="text-base leading-relaxed text-gray-800">
-              [Brief bio about yourself. Describe your current position, research interests, or professional focus.
-              For example: "I'm a PhD student at [University] studying [Field], researching [Topic].
-              My work focuses on [Area] with applications to [Application]."]
+              Previously, I completed my M.Sc. in Computational Biology at Cornell University, Weill Graduate School of Medical Science, where I was advised by Prof. Nikolaus Schultz.
             </p>
             <p className="mt-4 text-base text-gray-700">
               Feel free to contact me at{" "}
@@ -148,9 +149,21 @@ export default function App() {
         {/* Publications Section */}
         <section id="publications" className="mb-12">
           <h2 className="mb-6 text-2xl font-bold text-gray-900">Publications</h2>
+          <p className="mb-4 text-sm italic text-gray-600">
+            Selected publications. For a complete list, please visit my{" "}
+            <a
+              href="https://scholar.google.com/citations?user=soVw45IAAAAJ&hl=en"
+              className="no-underline transition-all hover:underline"
+              style={{color: '#2D7A7A'}}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Scholar profile
+            </a>.
+          </p>
           <ul className="space-y-4">
             <li>
-              <a href="https://doi.org/10.1101/2024.12.15.628568" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://doi.org/10.1101/2024.12.15.628568" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 Echidna: A Bayesian Framework for Quantifying Gene Dosage Effect Impacting Phenotypic Plasticity
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -158,7 +171,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://doi.org/10.48550/ARXIV.2603.03411" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://doi.org/10.48550/ARXIV.2603.03411" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 Scalable Contrastive Causal Discovery under Unknown Soft Interventions
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -166,7 +179,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://doi.org/10.48550/ARXIV.2603.16708" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://doi.org/10.48550/ARXIV.2603.16708" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 Learning Lineage-Guided Geodesics with Finsler Geometry
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -174,7 +187,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://www.biorxiv.org/content/10.1101/2025.07.03.663009v3" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://www.biorxiv.org/content/10.1101/2025.07.03.663009v3" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -182,7 +195,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="http://arxiv.org/abs/2509.25230" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="http://arxiv.org/abs/2509.25230" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 Energy Guided Geometric Flow Matching
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -190,7 +203,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://doi.org/10.1136/jitc-2023-006782" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://doi.org/10.1136/jitc-2023-006782" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 KLRG1 Marks Tumor-Infiltrating CD4 T Cell Subsets Associated with Tumor Progression and Immunotherapy Response
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -198,7 +211,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://icml-compbio.github.io/2023/papers/WCBICML2023_paper94.pdf" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://icml-compbio.github.io/2023/papers/WCBICML2023_paper94.pdf" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 GGeraPHF: Graph Generative Poisson Hierarchical Factorization
               </a>
               <div className="mt-1 text-sm text-gray-600">
@@ -206,7 +219,7 @@ export default function App() {
               </div>
             </li>
             <li>
-              <a href="https://www.nature.com/articles/s41591-024-03040-4" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+              <a href="https://www.nature.com/articles/s41591-024-03040-4" className="no-underline transition-all hover:underline" style={{color: '#2D7A7A'}} target="_blank" rel="noopener noreferrer">
                 Ultrasensitive Plasma-Based Monitoring of Tumor Burden Using Machine-Learning-Guided Signal Enrichment
               </a>
               <div className="mt-1 text-sm text-gray-600">
