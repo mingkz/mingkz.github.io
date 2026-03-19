@@ -150,38 +150,67 @@ export default function App() {
           <h2 className="mb-6 text-2xl font-bold text-gray-900">Publications</h2>
           <ul className="space-y-4">
             <li>
-              <a href="#" className="text-blue-600 hover:text-blue-800 underline">
-                [Paper Title 1]
+              <a href="https://doi.org/10.1101/2024.12.15.628568" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                Echidna: A Bayesian Framework for Quantifying Gene Dosage Effect Impacting Phenotypic Plasticity
               </a>
               <div className="mt-1 text-sm text-gray-600">
-                [Author 1], [Author 2], et al. <span className="italic">[Journal/Conference Name]</span> (2025)
-              </div>
-              <div className="mt-1 text-xs text-gray-500">
-                [Optional: Awards, recognitions, or notes]
+                Fan, Joy Linyue*, <span className="font-semibold">Mingxuan Zhang*</span>, William O'Brien, Joshua D. Myers, Johannes C. Melms, Jana Biermann, Edridge D'Souza, et al. <span className="italic">In Revision, Nature Methods</span> (2024)
               </div>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:text-blue-800 underline">
-                [Paper Title 2]
+              <a href="https://doi.org/10.48550/ARXIV.2603.03411" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                Scalable Contrastive Causal Discovery under Unknown Soft Interventions
               </a>
               <div className="mt-1 text-sm text-gray-600">
-                [Author 1], [Author 2], et al. <span className="italic">[Journal/Conference Name]</span> (2024)
+                <span className="font-semibold">Mingxuan Zhang*</span>, Khushi Desai*, Sopho Kevlishvili, and Elham Azizi. <span className="italic">In Review, UAI 2026</span> (2026)
               </div>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:text-blue-800 underline">
-                [Paper Title 3]
+              <a href="https://doi.org/10.48550/ARXIV.2603.16708" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                Learning Lineage-Guided Geodesics with Finsler Geometry
               </a>
               <div className="mt-1 text-sm text-gray-600">
-                [Author 1], [Author 2], et al. <span className="italic">[Journal/Conference Name]</span> (2024)
+                Zweig, Aaron*, <span className="font-semibold">Mingxuan Zhang*</span>, David A. Knowles, and Elham Azizi. <span className="italic">In Review, UAI 2026</span> (2026)
               </div>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:text-blue-800 underline">
-                [Paper Title 4]
+              <a href="https://www.biorxiv.org/content/10.1101/2025.07.03.663009v3" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model
               </a>
               <div className="mt-1 text-sm text-gray-600">
-                [Author 1], [Author 2], et al. <span className="italic">[Journal/Conference Name]</span> (2023)
+                <span className="font-semibold">Mingxuan Zhang*</span>, Vinay Swamy*, Rowan Cassius, Léo Dupire, et al. <span className="italic">ICLR 2026, MLGenX</span> (2025)
+              </div>
+            </li>
+            <li>
+              <a href="http://arxiv.org/abs/2509.25230" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                Energy Guided Geometric Flow Matching
+              </a>
+              <div className="mt-1 text-sm text-gray-600">
+                Zweig, Aaron*, <span className="font-semibold">Mingxuan Zhang*</span>, Elham Azizi, and David Knowles. <span className="italic">arXiv</span> (2025)
+              </div>
+            </li>
+            <li>
+              <a href="https://doi.org/10.1136/jitc-2023-006782" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                KLRG1 Marks Tumor-Infiltrating CD4 T Cell Subsets Associated with Tumor Progression and Immunotherapy Response
+              </a>
+              <div className="mt-1 text-sm text-gray-600">
+                Ager, Casey R., <span className="font-semibold">Mingxuan Zhang</span>, Matthew Chaimowitz, Shruti Bansal, Somnath Tagore, Aleksandar Obradovic, Collin Jugler, et al. <span className="italic">Journal for Immunotherapy of Cancer</span> 11 (9) (2023)
+              </div>
+            </li>
+            <li>
+              <a href="https://icml-compbio.github.io/2023/papers/WCBICML2023_paper94.pdf" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                GGeraPHF: Graph Generative Poisson Hierarchical Factorization
+              </a>
+              <div className="mt-1 text-sm text-gray-600">
+                <span className="font-semibold">Mingxuan Zhang*</span>, Kevin Hoffer-Hawlik*, Benjamin Izar, and Elham Azizi. <span className="italic">ICML 2023, Workshop in Computational Biology</span> (2023)
+              </div>
+            </li>
+            <li>
+              <a href="https://www.nature.com/articles/s41591-024-03040-4" className="no-underline transition-all hover:underline" style={{color: '#475B63'}} target="_blank" rel="noopener noreferrer">
+                Ultrasensitive Plasma-Based Monitoring of Tumor Burden Using Machine-Learning-Guided Signal Enrichment
+              </a>
+              <div className="mt-1 text-sm text-gray-600">
+                Widman, Adam J., Minita Shah, Amanda Frydendahl, Daniel Halmos, Cole C. Khamnei, Nadia Øgaard, Srinivas Rajagopalan, Anushri Arora, Aditya Deshpande, William F. Hooper, Jean Quentin, Jake Bass, <span className="font-semibold">Mingxuan Zhang</span>, et al. <span className="italic">Nature Medicine</span> 30 (6): 1655–66 (2024)
               </div>
             </li>
           </ul>
@@ -193,29 +222,26 @@ export default function App() {
           <ul className="space-y-4">
             <li>
               <div className="text-base font-semibold text-gray-800">
-                [Course Name/Number]
+                Intensive Workshop on Methods in Single-Cell Data Integration and Optimal Transport
               </div>
               <div className="mt-1 text-sm text-gray-600">
-                [Role: Teaching Assistant/Instructor] - [University/Institution] ([Semester] [Year])
-              </div>
-              <div className="mt-1 text-sm text-gray-600">
-                [Optional: Brief description of responsibilities or topics covered]
+                Instructor - Columbia University (2025)
               </div>
             </li>
             <li>
               <div className="text-base font-semibold text-gray-800">
-                [Course Name/Number]
+                Single-Cell Analysis Bootcamp: Systems Biology Methods for Analysis of Single-Cell RNA-seq
               </div>
               <div className="mt-1 text-sm text-gray-600">
-                [Role: Teaching Assistant/Instructor] - [University/Institution] ([Semester] [Year])
+                Instructor - Columbia University Medical Center (2024)
               </div>
             </li>
             <li>
               <div className="text-base font-semibold text-gray-800">
-                [Course Name/Number]
+                Statistical Machine Learning for Genomics
               </div>
               <div className="mt-1 text-sm text-gray-600">
-                [Role: Teaching Assistant/Instructor] - [University/Institution] ([Semester] [Year])
+                Teaching Assistant - Columbia University (2024)
               </div>
             </li>
           </ul>
