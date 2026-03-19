@@ -14,7 +14,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white px-6 py-8 sm:px-12 md:px-16 lg:px-24">
+    <div className="min-h-screen bg-white px-6 py-16 sm:px-12 md:px-16 lg:px-24">
       {/* Sticky Navigation Bar */}
       <nav
         className={`fixed left-0 right-0 top-0 z-50 border-b border-gray-200 bg-white transition-all duration-300 ${
