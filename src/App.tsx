@@ -21,7 +21,7 @@ export default function App() {
           isScrolled ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
         }`}
       >
-        <div className="mx-auto flex max-w-2xl items-center justify-between px-6 py-3 sm:px-12 md:px-16 lg:px-24">
+        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-3 sm:px-12 md:px-16 lg:px-24">
           <a
             href="#"
             className="text-lg font-bold tracking-tight text-gray-900 transition-colors hover:text-gray-600"
@@ -51,7 +51,7 @@ export default function App() {
         </div>
       </nav>
 
-      <div className="mx-auto max-w-2xl">
+      <div className="mx-auto max-w-4xl">
         {/* Header */}
         <header className="mb-12 border-b border-gray-200 pb-6">
           <div className="mb-6 flex items-center gap-6">
