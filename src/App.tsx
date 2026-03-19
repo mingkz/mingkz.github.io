@@ -117,7 +117,7 @@ export default function App() {
                   Google Scholar
                 </a>
                 <a
-                  href="/cv.pdf"
+                  href="/ming_cv.pdf"
                   className="rounded-md border border-transparent bg-transparent px-3 py-1.5 font-bold transition-all hover:border-gray-200 hover:bg-gray-200"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -138,7 +138,7 @@ export default function App() {
             <p className="mt-4 text-base text-gray-700">
               Feel free to contact me at{" "}
               <code className="font-mono rounded bg-gray-100 px-1.5 py-0.5 text-sm text-gray-800">
-                mz2934@cumc.columbia.edu
+                mz2934@columbia.edu
               </code>
               .
             </p>
