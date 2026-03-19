@@ -1,8 +1,56 @@
 import { Twitter, Linkedin, Github } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 200);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white px-6 py-8 sm:px-12 md:px-16 lg:px-24">
+      {/* Sticky Navigation Bar */}
+      <nav
+        className={`fixed left-0 right-0 top-0 z-50 border-b border-gray-200 bg-white transition-all duration-300 ${
+          isScrolled ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+        }`}
+      >
+        <div className="mx-auto flex max-w-2xl items-center justify-between px-6 py-3 sm:px-12 md:px-16 lg:px-24">
+          <a
+            href="#"
+            className="text-lg font-bold tracking-tight text-gray-900 transition-colors hover:text-gray-600"
+          >
+            Mingxuan Zhang
+          </a>
+          <div className="flex items-center gap-2 text-sm">
+            <a
+              href="#"
+              className="rounded-md border border-transparent bg-transparent px-3 py-1.5 font-bold transition-all hover:border-gray-200 hover:bg-gray-200"
+            >
+              About
+            </a>
+            <a
+              href="#publications"
+              className="rounded-md border border-transparent bg-transparent px-3 py-1.5 font-bold transition-all hover:border-gray-200 hover:bg-gray-200"
+            >
+              Publications
+            </a>
+            <a
+              href="#teaching"
+              className="rounded-md border border-transparent bg-transparent px-3 py-1.5 font-bold transition-all hover:border-gray-200 hover:bg-gray-200"
+            >
+              Teaching
+            </a>
+          </div>
+        </div>
+      </nav>
+
       <div className="mx-auto max-w-2xl">
         {/* Header */}
         <header className="mb-12 border-b border-gray-200 pb-6">
